@@ -11,6 +11,16 @@
 
 <br>
 
+
+## 🔥 스터디 주제
+
+| 1주차 | 
+|:-:|
+|[Singleton](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Singleton+Pattern%22+)|
+|[Builder](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Builder+Pattern%22+)|
+
+<br>
+
 ## 🔥 스터디 인원
 
 <table>
