@@ -6,11 +6,11 @@
 // Protype Protocol
 
 public protocol Prototype: AnyObject {
-        init(prototype: Self)
+    init(prototype: Self)
 }
 
 extension Prototype {
-        public func clone() -> Self {
-                return type(of: self).init(prototype: self)
-        }
+    public func clone() -> Self {
+        return type(of: self).init(prototype: self)
+    }
 }
