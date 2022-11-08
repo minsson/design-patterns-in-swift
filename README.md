@@ -14,10 +14,10 @@
 
 ## 🔥 스터디 주제
 
-| 1주차 | 
-|:-:|
-|[Singleton](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Singleton+Pattern%22+)|
-|[Builder](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Builder+Pattern%22+)|
+| 1주차 | 2주차 | 3주차 |
+|:-:|:-:|:-:|
+|[Singleton](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Singleton+Pattern%22+) | [Prototype](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Prototype+Pattern%22+) | [Adapter](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Adapter+Pattern%22+) |
+|[Builder](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Builder+Pattern%22+) | [Factory Method](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Factory+Method+Pattern%22+) | [Bridge](https://github.com/minsson/design-patterns-in-swift/pulls?q=is%3Apr+label%3A%22Bridge+Pattern%22+)
 
 <br>
 
