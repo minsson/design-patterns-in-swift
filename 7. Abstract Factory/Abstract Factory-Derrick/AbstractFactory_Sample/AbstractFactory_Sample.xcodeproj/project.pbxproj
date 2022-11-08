@@ -17,6 +17,7 @@
 		90812531291A76C30031420A /* ButtonBoxFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812530291A76C30031420A /* ButtonBoxFactory.swift */; };
 		90812533291A76CE0031420A /* DarkButtonBoxFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812532291A76CE0031420A /* DarkButtonBoxFactory.swift */; };
 		90812535291A76D30031420A /* LightButtonBoxFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812534291A76D30031420A /* LightButtonBoxFactory.swift */; };
+		90812537291A7CB30031420A /* ButtonBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812536291A7CB30031420A /* ButtonBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		90812530291A76C30031420A /* ButtonBoxFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBoxFactory.swift; sourceTree = "<group>"; };
 		90812532291A76CE0031420A /* DarkButtonBoxFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkButtonBoxFactory.swift; sourceTree = "<group>"; };
 		90812534291A76D30031420A /* LightButtonBoxFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightButtonBoxFactory.swift; sourceTree = "<group>"; };
+		90812536291A7CB30031420A /* ButtonBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				90812530291A76C30031420A /* ButtonBoxFactory.swift */,
 				90812534291A76D30031420A /* LightButtonBoxFactory.swift */,
 				90812532291A76CE0031420A /* DarkButtonBoxFactory.swift */,
+				90812536291A7CB30031420A /* ButtonBox.swift */,
 			);
 			path = AbstractFactoryPattern;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				90812527291A75D20031420A /* BlackView.swift in Sources */,
 				90812531291A76C30031420A /* ButtonBoxFactory.swift in Sources */,
 				9081252B291A75DF0031420A /* BlackButton.swift in Sources */,
+				90812537291A7CB30031420A /* ButtonBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,10 +15,10 @@ let yellowView = YellowView(id: "yv")
 print("\(blackView)\n\(blackButton)\n\(yellowView)\n\(yellowButton)")
 
 // Abstract Factory Pattern
-let darkFactory = DarkButtonBoxFactory()
+var buttonBox = ButtonBox(colorTheme: .dark)
+buttonBox.printComponents()
 
-let darkButton = darkFactory.createButton()
-let darkView = darkFactory.createView()
+print("\n## Change Factory ##\n")
 
-print(darkView.id)
-print(darkButton.id)
+buttonBox.change(colorTheme: .light)
+buttonBox.printComponents()
