@@ -1,0 +1,10 @@
+//
+//  Button.swift
+//  Abstract_Factory_Pattern
+//
+//  Created by Derrick kim on 2022/11/08.
+//
+
+protocol Button {
+    func click()
+}
