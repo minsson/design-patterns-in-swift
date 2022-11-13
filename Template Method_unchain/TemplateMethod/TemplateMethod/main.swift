@@ -6,17 +6,17 @@
 //
 
 import Foundation
-
+// 템플릿
 class MakeCoffee {
 
-    final func makeCoffee() {
-        roastCoffe()
+    final func makeCoffee() { // 템플릿 메서드
+        roastCoffee()
         grindCoffeeBeans()
         brewEspresso()
         print("커피가 완성되었습니다.")
     }
 
-    func roastCoffe() {
+    func roastCoffee() {
         print("커피콩을 볶았습니다.")
     }
 
@@ -30,7 +30,7 @@ class MakeCoffee {
 }
 
 class BaristaUnchain: MakeCoffee {
-    override func roastCoffe() {
+    override func roastCoffee() {
         print("커피콩을 강한불로 볶습니다.")
     }
 }
@@ -47,10 +47,17 @@ class BaristaWingBong: MakeCoffee {
     }
 }
 
+class BaristaBackGom: MakeCoffee {
+    override func grindCoffeeBeans() {
+        print("커피콩을 매우 두껍게 갈았습니다.")
+    }
+}
+
 enum Barista {
     case unchain
     case judy
     case wingbong
+    case backGom
 }
 
 class Customer {
@@ -62,6 +69,9 @@ class Customer {
             BaristaJudy().makeCoffee()
         case .wingbong:
             BaristaWingBong().makeCoffee()
+        case .backGom:
+            BaristaBackGom().makeCoffee()
+
         }
     }
 }
@@ -69,3 +79,4 @@ class Customer {
 Customer.orderCoffee(barista: .unchain)
 Customer.orderCoffee(barista: .judy)
 Customer.orderCoffee(barista: .wingbong)
+Customer.orderCoffee(barista: .backGom)
