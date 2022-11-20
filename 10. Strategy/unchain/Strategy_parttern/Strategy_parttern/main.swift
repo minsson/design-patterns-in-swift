@@ -41,6 +41,7 @@ class Mail: Strategy {
 
 //MARK: Context
 class ShareButton {
+    
     private var shareAlgorithm: Strategy?
 
     func share() {
