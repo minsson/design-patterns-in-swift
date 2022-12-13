@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A84756029484C2E0001F868 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84755F29484C2E0001F868 /* main.swift */; };
+		8A84756829484C6A0001F868 /* NotifierDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84756729484C6A0001F868 /* NotifierDecorator.swift */; };
+		8A84756B29484CAB0001F868 /* NotifierComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84756A29484CAB0001F868 /* NotifierComponent.swift */; };
+		8A84756E29484CDC0001F868 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84756D29484CDC0001F868 /* Notifier.swift */; };
+		8A84757129484D680001F868 /* EmailDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84757029484D680001F868 /* EmailDecorator.swift */; };
+		8A84757329484D8A0001F868 /* SlackDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84757229484D8A0001F868 /* SlackDecorator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A84755A29484C2E0001F868 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A84755C29484C2E0001F868 /* Decorator-BaekGom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Decorator-BaekGom"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A84755F29484C2E0001F868 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8A84756729484C6A0001F868 /* NotifierDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifierDecorator.swift; sourceTree = "<group>"; };
+		8A84756A29484CAB0001F868 /* NotifierComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifierComponent.swift; sourceTree = "<group>"; };
+		8A84756D29484CDC0001F868 /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		8A84757029484D680001F868 /* EmailDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailDecorator.swift; sourceTree = "<group>"; };
+		8A84757229484D8A0001F868 /* SlackDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackDecorator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A84755929484C2E0001F868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A84755329484C2E0001F868 = {
+			isa = PBXGroup;
+			children = (
+				8A84755E29484C2E0001F868 /* Decorator-BaekGom */,
+				8A84755D29484C2E0001F868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A84755D29484C2E0001F868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A84755C29484C2E0001F868 /* Decorator-BaekGom */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A84755E29484C2E0001F868 /* Decorator-BaekGom */ = {
+			isa = PBXGroup;
+			children = (
+				8A84756F29484D410001F868 /* ConcreteDecorator */,
+				8A84756C29484CBA0001F868 /* ConcreteComponent */,
+				8A84756929484C860001F868 /* Component */,
+				8A84756629484C520001F868 /* Decorator */,
+				8A84755F29484C2E0001F868 /* main.swift */,
+			);
+			path = "Decorator-BaekGom";
+			sourceTree = "<group>";
+		};
+		8A84756629484C520001F868 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				8A84756729484C6A0001F868 /* NotifierDecorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		8A84756929484C860001F868 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8A84756A29484CAB0001F868 /* NotifierComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		8A84756C29484CBA0001F868 /* ConcreteComponent */ = {
+			isa = PBXGroup;
+			children = (
+				8A84756D29484CDC0001F868 /* Notifier.swift */,
+			);
+			path = ConcreteComponent;
+			sourceTree = "<group>";
+		};
+		8A84756F29484D410001F868 /* ConcreteDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				8A84757029484D680001F868 /* EmailDecorator.swift */,
+				8A84757229484D8A0001F868 /* SlackDecorator.swift */,
+			);
+			path = ConcreteDecorator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A84755B29484C2E0001F868 /* Decorator-BaekGom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A84756329484C2E0001F868 /* Build configuration list for PBXNativeTarget "Decorator-BaekGom" */;
+			buildPhases = (
+				8A84755829484C2E0001F868 /* Sources */,
+				8A84755929484C2E0001F868 /* Frameworks */,
+				8A84755A29484C2E0001F868 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decorator-BaekGom";
+			productName = "Decorator-BaekGom";
+			productReference = 8A84755C29484C2E0001F868 /* Decorator-BaekGom */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A84755429484C2E0001F868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8A84755B29484C2E0001F868 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A84755729484C2E0001F868 /* Build configuration list for PBXProject "Decorator-BaekGom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A84755329484C2E0001F868;
+			productRefGroup = 8A84755D29484C2E0001F868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A84755B29484C2E0001F868 /* Decorator-BaekGom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A84755829484C2E0001F868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A84756029484C2E0001F868 /* main.swift in Sources */,
+				8A84757129484D680001F868 /* EmailDecorator.swift in Sources */,
+				8A84756E29484CDC0001F868 /* Notifier.swift in Sources */,
+				8A84756829484C6A0001F868 /* NotifierDecorator.swift in Sources */,
+				8A84757329484D8A0001F868 /* SlackDecorator.swift in Sources */,
+				8A84756B29484CAB0001F868 /* NotifierComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A84756129484C2E0001F868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A84756229484C2E0001F868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8A84756429484C2E0001F868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A84756529484C2E0001F868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A84755729484C2E0001F868 /* Build configuration list for PBXProject "Decorator-BaekGom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A84756129484C2E0001F868 /* Debug */,
+				8A84756229484C2E0001F868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A84756329484C2E0001F868 /* Build configuration list for PBXNativeTarget "Decorator-BaekGom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A84756429484C2E0001F868 /* Debug */,
+				8A84756529484C2E0001F868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A84755429484C2E0001F868 /* Project object */;
+}
